@@ -15,7 +15,7 @@ resource "azurerm_storage_account" "storage" {
   account_replication_type = "LRS"
 }
 module "resource_group_storage" {
-  source              = "YOUR_GITHUB_USERNAME/resource_group_storage/azurerm"
+  source              = "88victory88/terraform-azurerm-resource_group_storage/azurerm"
   version            = "1.0.0"
   resource_group_name = "example-rg"
   location           = "East US"
